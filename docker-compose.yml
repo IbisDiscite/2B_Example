@@ -1,0 +1,19 @@
+version: '2'
+services:
+  examples_db:
+    image: mysql
+    ports:
+      - "3309:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: arqui
+      MYSQL_USER: user
+      MYSQL_PASSWORD: arqui
+      MYSQL_DATABASE: examples
+      MYSQL_HOST: examples_db
+  examples_ms:
+    build: .
+    command: bash -c "sleep 40 && rm -f tmp/pids/server.pid && bundle exec rails db:migrate && bundle exec rails s -p 4001 -b '0.0.0.0'"
+    ports:
+      - "4001:4001"
+    depends_on:
+      - examples_db
