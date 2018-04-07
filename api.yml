@@ -308,7 +308,7 @@ definitions:
     properties:
       nombre:
         type: string
-  ExamplesList:
+  UnitsList:
     type: object
     required:
       - total
