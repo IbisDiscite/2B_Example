@@ -9,7 +9,7 @@ services:
       MYSQL_USER: user
       MYSQL_PASSWORD: arqui
       MYSQL_DATABASE: examples
-      MYSQL_HOST: examples-db
+      MYSQL_HOST: 35.196.170.89
   examples-ms:
     image: dafrodriguezro/2b_example
     command: bash -c "sleep 40 && rm -f tmp/pids/server.pid && bundle exec rails db:migrate && bundle exec rails s -p 4001 -b '0.0.0.0'"
