@@ -17,5 +17,6 @@ services:
       - "4001:4001"
     environment:
         PORT: '4001'
+        HOST:  35.196.170.89
     depends_on:
         - examples-db
