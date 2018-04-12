@@ -16,6 +16,7 @@ default: &default
   username: root
   password: arqui
   host: 35.196.170.89
+  port: 3309
   socket: /tmp/mysql.sock
 
 development:
