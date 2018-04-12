@@ -15,8 +15,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
   password: arqui
-  host: 35.196.170.89
-  port: 3309
+  host: examples-db
   socket: /tmp/mysql.sock
 
 development:
