@@ -5,6 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Example.destroy_all
+Unit.destroy_all
+
 Unit.create(id: 1, nombre: "Grammar")
 Unit.create(id: 2, nombre: "Listening")
 Unit.create(id: 3 , nombre: "Phrasal Verbs")
