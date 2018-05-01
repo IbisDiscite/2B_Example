@@ -5,12 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Unit.create(:id=> 1, :nombre => "Grammar")
-Unit.create(:id=> 2, :nombre => "Listening")
-Unit.create(:id=> 3, :nombre => "Phrasal Verbs")
-Unit.create(:id=> 4, :nombre => "Writing")
-Unit.create(:id=> 5, :nombre => "Reading")
-Unit.create(:id=> 6, :nombre => "Pronouns")
+Unit.create(:nombre => "Grammar")
+Unit.create(:nombre => "Listening")
+Unit.create(:nombre => "Phrasal Verbs")
+Unit.create(:nombre => "Writing")
+Unit.create(:nombre => "Reading")
+Unit.create(:nombre => "Pronouns")
 
 #Examples for grammar
 4.times do |i|
