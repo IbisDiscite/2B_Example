@@ -9,7 +9,7 @@ Unit.create(id: 1, nombre: "Grammar")
 Unit.create(id: 2, nombre: "Listening")
 Unit.create(id: 3 , nombre: "Phrasal Verbs")
 Unit.create(id: 4 , nombre: "Writing")
-Unit.create(id: 5 , nombre: "Reading"
+Unit.create(id: 5 , nombre: "Reading")
 Unit.create(id: 6 , nombre: "Pronouns")
 
 #Examples for grammar
