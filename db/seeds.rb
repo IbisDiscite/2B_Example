@@ -44,7 +44,7 @@ end
 4.times do |i|
   Examples.create(
     unit_id: 5,
-    contenid "Example number #{i} of Reading unit!"
+    contenido: "Example number #{i} of Reading unit!"
   )
 end
 #Examples for pronouns
